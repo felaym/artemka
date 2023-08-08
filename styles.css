@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: papayawhip;
+}
+
+header {
+    background-color: burlywood;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: rgb(255, 245, 229);
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+.recipe-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 350px;
+    border: 5px solid rgb(224, 174, 109);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+.headerButton1 , .headerButton2 , .headerButton3 , .headerButton4 , .headerButton5 , .headerButton6 , .headerButton10, .headerButton11 , .headerButton20{
+    color: #ffffff;
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: rgb(205, 129, 29);
+    border-radius: 20px;
+    cursor: pointer;
+    border: rgb(213, 121, 0);
+}
+.headerButton1:hover {
+    background-color: rgb(152, 86, 0);
+}
+.headerButton2:hover {
+    background-color: rgb(152, 86, 0);
+}
+.headerButton3:hover {
+    background-color: rgb(152, 86, 0);
+}
+.headerButton4:hover {
+    background-color: rgb(152, 86, 0);
+}
+.headerButton5:hover {
+    background-color: rgb(152, 86, 0);
+}
+#headerButton228:hover {
+    background-color: rgb(152, 86, 0);
+}
+.headerButton6:hover {
+    background-color: rgb(152, 86, 0);
+}
+.headerButton10:hover {
+    background-color: rgb(152, 86, 0);
+} 
+.headerButton11:hover {
+    background-color: rgb(152, 86, 0);
+}
+.headerButton328:hover {
+    background-color: rgb(152, 86, 0);
+}   
+.headerButton20:hover {
+    background-color: rgb(152, 86, 0);
+}   
+#inputOfKilos {
+    color: #ffffff;
+    font: 14px/40px "Proxima Nova", sans-serif;
+    padding-left:14px;
+    padding-right:14px;
+    background: burlywood;
+    border-radius: 20px;
+    cursor: text;
+    border: rgb(254, 144, 0);
+}
+#inputOfKilos::placeholder {
+    color: #fff;
+    position: relative;
+    left: 1px;
+}
+#headerButton7 {
+    color: #ffffff;
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: rgb(205, 129, 29);
+    border-radius: 20px;
+    cursor: pointer;
+    border: rgb(213, 121, 0);
+    width: 95px;
+}
+#headerButton7:hover {
+    background-color: rgb(152, 86, 0);
+}
+#inputOfCelcius {
+    color: #ffffff;
+    font: 14px/40px "Proxima Nova", sans-serif;
+    padding-left:14px;
+    padding-right:14px;
+    background: burlywood;
+    border-radius: 20px;
+    cursor: text;
+    border: rgb(254, 144, 0);
+}
+#inputOfCelcius::placeholder {
+    color: #fff;
+    position: relative;
+    left: 1px;
+}
+#headerButton8 {
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: rgb(205, 129, 29);
+    border-radius: 20px;
+    cursor: pointer;
+    border: rgb(213, 121, 0);
+    width: 95px;
+    color: #fff;
+}
+#headerButton8:hover {
+    background-color: rgb(152, 86, 0);
+}
+::selection {
+    background-color: rgb(191, 108, 0);
+    color: white
+}
+#headerButton13 {
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: rgb(205, 129, 29);
+    border-radius: 20px;
+    cursor: pointer;
+    border: rgb(213, 121, 0);
+    width: 95px;
+    color: #fff;
+}
+#headerButton228 {
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: rgb(205, 129, 29);
+    border-radius: 20px;
+    cursor: pointer;
+    border: rgb(213, 121, 0);
+    width: 95px;
+    color: #fff;
+}
+#headerButton328 {
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: rgb(205, 129, 29);
+    border-radius: 20px;
+    cursor: pointer;
+    border: rgb(213, 121, 0);
+    width: 95px;
+    color: #fff;
+}
+#headerButton428 {
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: rgb(205, 129, 29);
+    border-radius: 20px;
+    cursor: pointer;
+    border: rgb(213, 121, 0);
+    width: 95px;
+    color: #fff;
+}
+#headerButton13:hover {
+    background-color: rgb(152, 86, 0);
+}
+#headerButton328:hover {
+    background-color: rgb(152, 86, 0);
+}
+#headerButton428:hover {
+    background-color: rgb(152, 86, 0);
+}
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+.color {
+    color: black;
+    cursor: text;
+}
+#visaCard {
+    cursor: pointer;
+    accent-color: rgb(214, 122, 0);
+    
+}
+#masterCard {
+    cursor: pointer;
+    accent-color: rgb(214, 122, 0);
+    
+}
+#paypalCard {
+    cursor: pointer;
+    accent-color: rgb(214, 122, 0);
+    
+}
+.links{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}

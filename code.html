@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Potica Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="logo1.png">
+</head>
+<body>
+    <header>
+        <h1>Potica Recipe</h1><br>
+        <nav>
+            <ul>
+                <a href="#about"><button class="headerButton1"><li>About</li></button></a>
+                <a href="#ingredients"><button class="headerButton2"><li>Ingredients</li></button></a>
+                <a href="#instructions"><button class="headerButton3"><li>Instructions</li></button></a>
+                <a href="#tips"><button class="headerButton4"><li>Tips</li></button></a>
+                <a href="#variations"><button class="headerButton5"><li>Variations</li></button></a>
+                <a href="#kgsToPounds"><button class="headerButton6"><li>Kgs→Pounds</li></button></a>
+                <a href="#celciusToFahrenheit"><button class="headerButton10"><li>°C→°F</li></button></a>
+                <a href="#randomDish"><button class="headerButton11"><li>Random Dish</li></button></a>
+                <a href="#supportUs"><button class="headerButton20"><li>Support Us</li></button></a>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                Potica is a traditional Slovenian dessert pastry that is typically filled with a sweet nut mixture.
+                It is rolled into a spiral shape, resulting in a delightful treat that is enjoyed by many.
+                The combination of the soft, yeasted dough and the flavorful filling makes Potica a beloved delicacy.
+                Here, we present you with a classic Potica recipe that you can try in your own kitchen.
+            </p>
+            <img src="Polica1.webp" alt="Potica" class="recipe-image">
+        </section>
+
+        <section id="ingredients">
+            <h2>Ingredients</h2><br>
+            <ul>
+                <li>2 cups all-purpose flour</li>
+                <li>1/4 cup granulated sugar</li>
+                <li>1/2 teaspoon salt</li>
+                <li>1/2 cup unsalted butter, cold</li>
+                <li>1/2 cup milk</li>
+                <li>1/2 cup chopped walnuts</li>
+                <li>1/2 cup raisins</li>
+                <li>1/2 cup brown sugar</li>
+                <li>1 teaspoon ground cinnamon</li>
+            </ul>
+        </section>
+
+        <section id="instructions">
+            <h2>Instructions</h2><br>
+            <ol>
+                <li>In a large mixing bowl, combine flour, sugar, and salt. Cut in the butter until the mixture resembles coarse crumbs.</li>
+                <li>Add milk gradually, mixing until the dough comes together. Knead the dough on a floured surface until smooth and elastic.</li>
+                <li>Roll out the dough into a rectangle shape. Spread the chopped walnuts, raisins, brown sugar, and ground cinnamon evenly over the dough.</li>
+                <li>Starting from one of the shorter ends, roll up the dough tightly. Place the rolled dough in a greased loaf pan.</li>
+                <li>Bake at 350°F (175°C) for 40-45 minutes, or until golden brown. Let it cool before slicing and serving.</li>
+            </ol>
+        </section>
+
+        <section id="tips">
+            <h2>Tips</h2><br>
+            <ul>
+                <li>Make sure the butter is cold to achieve a flaky texture in the dough.</li>
+                <li>You can substitute walnuts with other nuts such as pecans or almonds for a variation in flavor.</li>
+                <li>For a sweeter Potica, you can drizzle a glaze made of powdered sugar and milk on top after it has cooled.</li>
+            </ul>
+        </section>
+
+        <section id="variations">
+            <h2>Variations</h2>
+            <p>Here are a few variations you can try:</p>
+            <ol>
+                <li><strong>Poppy Seed Potica:</strong> Replace the chopped walnuts with poppy seed filling for a different taste.</li>
+                <li><strong>Chocolate Potica:</strong> Add chocolate chips or cocoa powder to the filling for a chocolatey twist.</li>
+                <li><strong>Fruit-filled Potica:</strong> Instead of nuts, use a fruit preserve or jam as the filling for a fruity Potica.</li>
+            </ol>
+        </section>
+
+        <section id="kgsToPounds">
+            <h2>Convert Kilograms to Pounds (lbs)</h2>
+            <p>To use our converter, all you need to do is enter the weight in kilograms that you'd like to convert. Our program will instantly perform the conversion using the conversion factor of 1 kilogram equals approximately 2.20462 pounds. The converted weight will be displayed in pounds, allowing you to easily compare and work with imperial weight measurements.</p>
+            <label><b><strong>Write the weight in <mark>Kilograms:</mark></strong></b></label>
+            <input placeholder="Type here:" type="text" id="inputOfKilos"><br>
+            <button type="button" id="headerButton7">Submit</button><br><br>
+            <label id="bLabel"></label>
+        </section>
+
+        <section id="celciusToFahrenheit">
+            <h2>Convert Celcius to Fahrenheit</h2>
+            <p>Using our converter is incredibly straightforward. Simply enter the temperature in Celsius that you'd like to convert, and our program will swiftly calculate the equivalent temperature in Fahrenheit.</p>
+            <label><b><strong>Write the temperature using <mark>Celcius:</mark></strong></b></label>
+            <input placeholder="Type here:" type="text" id="inputOfCelcius"><br>
+            <button type="button" id="headerButton8">Submit</button><br><br>
+            <label id="cLabel"></label>
+        </section>
+
+        <section id="randomDish">
+            <h2>Choose the next dish to cook - from all over the world!</h2>
+            <p>Our program allows users to discover and explore various national dishes from around the world. With a vast collection of 100 different national dishes, the program randomly selects and displays a dish. We'd be happy to provide the pecipe of it, as well.</p>
+            <label><b><strong>Click here to get a random <mark>dish:</mark></strong></b></label>
+            <button type="button" id="headerButton13">Generate</button><br><br>
+            <label id="dLabel"></label>
+            <p id="eLabel"></p>
+        </section>
+
+        <section id="supportUs">
+            <h2>Support our work here:</h2>
+            <p>You are able to donate to us some money, in order to support our cooking website!</p>
+            <label for="visaCard" ><strong>Visa Card:</strong></label>
+            <input type="radio" value="Visa Card" name="card" id="visaCard"> 
+            <label for="masterCard" ><strong>MasterCard:</strong></label>
+            <input type="radio" value="MasterCard" name="card" id="masterCard">
+            <label for="paypalCard" ><strong>PayPal:</strong></label> 
+            <input type="radio" value="PayPal" name="card" id="paypalCard"> <br><br>
+            <button type="button" id="headerButton228">Choose</button><br><br>
+            <label id="paragraph"></label><br>
+            <p id="paragraph2"></p>
+                <!-- <a target="_blank" id="forVisa" href="https://www.visa.com.ua/uk_UA/pay-with-visa/find-a-card/credit-cards.html">To pay by Visa</a><br>
+                <a target="_blank" id="forMaster" href="https://www.mastercard.ua/uk-ua.html">To pay by MasterCard</a><br>
+                <a target="_blank" id="forPP" href="https://www.paypal.com/ua/home">To pay by PayPal</a> -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Potica Recipe.</p>
+        <address>Contact us: artemgames128@gmail.com</address>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
